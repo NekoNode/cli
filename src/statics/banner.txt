@@ -1,0 +1,8 @@
+ /\_/\
+( o.o ) Cli for NekoNode Service
+
+NekoNode is a website providing useful services.
+
+Available services:
+
+- send: Use `nekocli send` for information.

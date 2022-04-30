@@ -1,0 +1,19 @@
+[package]
+name = "nekocli"
+version = "0.1.0"
+edition = "2021"
+authors = ["LI Rui <me@lirui.tech>"]
+license = "Apache-2.0"
+description = "Command line interface for NekoNode services"
+readme = "README.md"
+homepage = "https://github.com/NekoNode/cli"
+repository = "https://github.com/NekoNode/cli"
+keywords = ["cli", "neko", "tool"]
+categories = ["command-line-interface"]
+exclude = [".*"]
+
+[dependencies]
+clap = { version = "3.1.12", features = ["cargo"] }
+reqwest = { version = "0.11", features = ["multipart", "blocking"] }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1"
